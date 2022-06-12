@@ -18,91 +18,92 @@
 <body>
     <header>
         <div class="header fixed-top">
-
-
-            <div class="container menubar">
-                <div class="btn-menu">
-                    <button>
-                        <span class="material-symbols-outlined">
-                            menu
-                        </span>
-                        <a href="">MENU</a>
-                    </button>
-                </div>
-                <div class="container logo-img">
-                    <a href="#">
-                        <img src="/Images/logo.jpg" alt="Logo">
-                    </a>
-                </div>
-                <div class="three-btn">
-                    <div class="btn-search">
-                        <a href="">
-                            <img src="/Images/icon_search.jpg" alt="">
-                        </a>
+            <div class="container">
+                <div class="menubar">
+                    <div class="btn-menu">
+                        <button id="js-menu-toggle-mobile">
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+                            <b class="d-none d-md-inline-block">MENU</b>
+                        </button>
                     </div>
-                    <div class="btn-login">
+
+                    <a href="#" class="m-auto w-auto">
+                        <img class="img-fluid" src="/Images/logo.jpg" alt="Logo">
+                    </a>
+
+                    <a href="" class="d-flex h_zoom">
+                        <img src="/Images/icon_search.jpg" alt="">
+                    </a>
+
+                    <div class="btn-login d-flex justify-content-center align-items-center h_zoom">
                         <button>
                             <img src="/Images/icon_user.jpg" alt="">
                         </button>
                     </div>
-                    <div class="btn-cart">
-                        <a href="">
-                            <img src="/Images/icon_cart.jpg" alt="">
-                        </a>
-                    </div>
+
+                    <a href="" class="d-none d-lg-flex position-relative h_zoom">
+                        <img src="/Images/icon_cart.jpg" alt="">
+                    </a>
+
                 </div>
 
             </div>
         </div>
-
     </header>
 
+
     <!-- Start carousel  -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="CRS">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button class="btnCRS" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button class="btnCRS" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button class="btnCRS" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#">
+                        <img src="/Images/slider1.jpg" class="d-block w-100" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="/Images/slider2.jpg" class="d-block w-100" alt="...">
+                    </a>
+
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="/Images/slider3.jpg" class="d-block w-100" alt="...">
+                    </a>
+
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="#">
-                    <img src="/Images/slider1.jpg" class="d-block w-100" alt="...">
-                </a>
-
-            </div>
-            <div class="carousel-item">
-                <a href="#">
-                    <img src="/Images/slider2.jpg" class="d-block w-100" alt="...">
-                </a>
-
-            </div>
-            <div class="carousel-item">
-                <a href="#">
-                    <img src="/Images/slider3.jpg" class="d-block w-100" alt="...">
-                </a>
-
-            </div>
-        </div>
-
     </div>
-    <!-- End carousel -->
+
+        <!-- End carousel -->
     <div class="under-footer">
-        <div class="container text-center pt-3">
+        <div class="container  text-center pt-3">
             <div class="row">
                 <div class="col-md-12">
                     <h3>CỬA HÀNG MR SHOP</h3>
-                    <div class="container btn-hethongcuahang">  
-                        <a href="/lien-he"  class="rb-repline-selected" title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
+                    <div class="container btn-hethongcuahang">
+                        <a href="/lien-he" class="rb-repline-selected" title="Hệ thống cửa hàng">Hệ thống cửa
+                            hàng</a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </div>
+
 
 
 
@@ -149,7 +150,8 @@
                 <div>
                     <ul class="list-menu">
 
-                        <li class="li_menu"><a href="https://www.facebook.com/thelap.nguyen.9999" class="">Facebook cá
+                        <li class="li_menu"><a href="https://www.facebook.com/thelap.nguyen.9999" class="">Facebook
+                                cá
                                 nhân</a></li>
 
                         <li class="li_menu"><a href="https://www.facebook.com/ShoesMrShop" class="">Fanpage</a></li>
@@ -238,7 +240,7 @@
             </div>
 
         </div>
-        </div>
+
         <div class="container d-flex mt-3">
 
 
@@ -252,7 +254,6 @@
     </footer>
 
     <!-- end footer  -->
-
 
 
 

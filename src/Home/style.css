@@ -3,31 +3,33 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Quicksand:wght@100&display=swap');
 body{
     display: block;
-    background-color: darkgray;
+    background-color: #fff;
     height: 1000px;
 }
 .header{
-    position: fixed !important;
     background-color:#fff;
     width: 100%;
- 
-    border-bottom: gray 2px;
-   
+    text-align: center;
+    border-bottom: gray 1,5px solid;   
 }
 
 
 .menubar{
     display: flex;
-    line-height: 74px;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+
     
 }
-.btn-menu a{
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
+.btn-menu b{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 .btn-menu button{
    
@@ -35,34 +37,36 @@ body{
     background-color: #fff;
     
 }
-
-.logo-img{
-    width: 200px;
-   
+.btn-menu button:hover{
+    color: #043e47;
 }
+
 
 .btn-login button{
-   
     border: none;
+    background-color: #fff;
 }
 
-.three-btn{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
 .btn-menu a{
     font-size: 24px;
     text-rendering: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-.btn-login button{
-    background-color: #fff;
+.h_zoom:hover img{
+    transform:scale(1.2)
+}
+.btnCRS{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
-.carousel{
+
+#carouselExampleIndicators{
     padding-top: 76px;
 }
+
+
 
 footer{
     background-color: #22272b;
@@ -114,9 +118,13 @@ footer .coppyright a:hover{
 }
 .under-footer{
     background-image: url(/Images/sec_store_bg.jpg);
-    height: 172px;
     background-size: auto auto;
     background-repeat: no-repeat;
+    width: 100;
+    height: 172px;
+}
+.under-footer h3{
+    color: #fff;
 }
 .btn-hethongcuahang{
     background: #fff;
