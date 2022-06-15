@@ -16,15 +16,18 @@
 </head>
 
 <body>
-    <div id="Body_overlay" class="position-fixed d-none"></div>
+
 
     <header>
-        
+        <div id="Body_overlay" class="position-fixed d-none"></div>
         <div class="header fixed-top">
+            
             <div class="container">
+                
                 <div class="menubar">
+                    
                     <div class="btn-menu">
-                        <button id="js-menu-toggle-mobile">
+                        <button id="js-menu-toggle">
                             <span class="material-symbols-outlined">
                                 menu
                             </span>
@@ -50,19 +53,26 @@
                     </a>
 
                 </div>
-                
+
             </div>
             <div class="nav-left d-flex">
-                <div class="col-left position-fixed d-flex flex-column" id="col-left">
-                    <div class="logo text-center">
+                <div class="col-left position-fixed flex-column" id="col-left">
+                    <div class="logo text-center mt-3">
                         <a href="/" title="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG">
                             <img alt="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG"
                                 src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/logo.png?1653150649282"
                                 class="img-fluid">
                         </a>
+                        
+                        
                     </div>
+                    <button id="btn-close" class="btn-close">
+                                
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"></svg>
+                        </button>
+                        
 
-                    <div class="navigation-block">
+                    <div class="navigation-block mt-5">
                         <ul id="menu" class="">
                             <li class="active">
                                 <a href="/" title="Trang chủ"
@@ -130,7 +140,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="">
+                    <div class="nav_left_contact">
                         <ul id="menu-dv" class="">
                             <li class="">
                                 <a href="/collections/all" title="Cửa hàng Online"
@@ -150,11 +160,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="">
+                    <div class="nav_left_social">
                         <ul class="p-0 mt-auto mb-0 box_vendor list-unstyled d-grid">
                         </ul>
-                        <div class="social p-2">
-                            <b></b>
+                        <div class="container p-2">
+                            
                             <a href="https://www.facebook.com/thelap.nguyen.9999" title="facebook"
                                 class="facebook"><img
                                     src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/facebook.png?1653150649282"
@@ -179,9 +189,7 @@
                                     class="lazy" alt="Youtube"></a>
                         </div>
                     </div>
-                    <button class="menu_pushy_button position-fixed border-0 outline-none d-xs-block"
-                        id="js-menu-toggle-1">
-                    </button>
+                
                 </div>
             </div>
 
@@ -207,15 +215,15 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-item active" data-bs-interval="1000">
                     <img src="/Images/slider1.jpg" class="d-block w-100" alt="...">
 
                 </div>
-                <div class="carousel-item" data-bs-interval="10000">
+                <div class="carousel-item" data-bs-interval="1000">
                     <img src="/Images/slider2.jpg" class="d-block w-100" alt="...">
 
                 </div>
-                <div class="carousel-item" data-bs-interval="10000">
+                <div class="carousel-item" data-bs-interval="1000">
                     <img src="/Images/slider3.jpg" class="d-block w-100" alt="...">
 
                 </div>
@@ -410,9 +418,7 @@
 
 
 
-
-
-
+    
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
