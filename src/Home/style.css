@@ -5,16 +5,28 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Quicksand:wght@100&display=swap');
 body{
-    display: block;
+
     background-color: #fff;
     height: 1000px;
 }
+#Body_overlay{
+    position:relative;
+    background-color: rgba(0,0,0,0.3);
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Start Header */
 .header{
     background-color:#fff;
     width: 100%;
     text-align: center;
     border-bottom: gray 1,5px solid;   
+    
 }
+
 
 
 .menubar{
@@ -39,13 +51,67 @@ body{
 }
 .btn-menu button:hover{
     color: #043e47;
+
 }
+
 
 
 .btn-login button{
     border: none;
     background-color: #fff;
 }
+.btn-login{
+    display:flex;
+    align-items: center;
+}
+
+
+
+/* End Header */
+
+
+/* Start navbar left */
+
+.nav-left{
+    display: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+   
+    margin-left: 0%;
+    align-items: left;
+    justify-content: left;
+    
+}
+.col-left{
+    align-items: left;
+    text-align: start;
+    background-color:gray;
+    border: #0d6efd 2px solid;
+    display: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+
+
+}
+.nav-left .col-left ul{
+    list-style: none;
+    
+}
+.nav-left .col-left ul li a{
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+}
+
+.nav-left .col-left .navigation-block ul .active a{
+    color: #0d6efd;
+}
+
+/* End navbar left */
 
 .btn-menu a{
     font-size: 24px;
@@ -53,69 +119,51 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .h_zoom:hover img{
-    transform:scale(1.2)
+    transform:scale(1.2) ;
+    
 }
-.btnCRS{
+
+
+
+
+
+
+
+/* Start Carousel */
+.slider{
+    height: auto;
+    width: auto;
+    margin-top:76px;
+    position: relative;
+    display: flex;
+}
+/* .slider .carousel-inner{
+    position: relative !important;
+} */
+.carousel-item{
+   
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+#carouselExampleDark .carousel-indicators{
+    margin-right: 100px;
+    justify-content: right;
+}
+#carouselExampleDark .carousel-indicators button{
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    border: #fff solid 2px;
+    opacity: 1;
 }
+#carouselExampleDark .active{
+    background-color: #fff !important;
+}
+/* End carousel */
 
 
-#carouselExampleIndicators{
-    padding-top: 76px;
-}
-
-
-
-footer{
-    background-color: #22272b;
-   border-top: #17a2b8 3px solid;
-    justify-content: center;
-}
-
-footer .notes{
-   
-    margin-left: 8%;
-    background-color:#22272b;
-    width: 100%;
-   
-    color: #fff;
-}
-footer .notes  a{
-    color: #fff;
-}
-footer .notes p a:hover{
-    color: #0d6efd;
-}
-footer .notes a:hover{
-    color: #0d6efd;
-}
-
-footer .notes  .list-menu{
-    list-style: none;
-    color: #fff;
-    margin-left: -30px;
-}
-footer .notes  .list-menu .li_menu a{
-    text-decoration: none;
-}
-.under-footer{
-    background-image: url();
-}
-footer .coppyright {
-    color: #fff !important;
-    text-align: center;
-    width: 100%;
-    border-top: solid 1px rgba(255, 255,255,0.7);
-}
-footer .coppyright a{
-    color: #fff;
-    text-decoration: none;
-}
-footer .coppyright a:hover{
-    color: #0d6efd;
-}
 .under-footer{
     background-image: url(/Images/sec_store_bg.jpg);
     background-size: auto auto;
@@ -150,6 +198,56 @@ footer .coppyright a:hover{
     color: #fff;
 }
 
+
+
+/* Start Footer */
+footer{
+    background-color: #22272b;
+   border-top: #17a2b8 3px solid;
+    justify-content: center;
+}
+
+footer .notes{
+   
+    margin-left: 8%;
+    background-color:#22272b;
+    width: 100%;
+   
+    color: #fff;
+}
+footer .notes  a{
+    color: #fff;
+}
+footer .notes p a:hover{
+    color: #0d6efd;
+}
+footer .notes a:hover{
+    color: #0d6efd;
+}
+
+footer .notes  .list-menu{
+    list-style: none;
+    color: #fff;
+    margin-left: -30px;
+}
+footer .notes  .list-menu .li_menu a{
+    text-decoration: none;
+}
+footer .coppyright {
+    color: #fff !important;
+    text-align: center;
+    width: 100%;
+    border-top: solid 1px rgba(255, 255,255,0.7);
+}
+footer .coppyright a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .coppyright a:hover{
+    color: #0d6efd;
+}
+
+/* End Footer */
 
 
 
