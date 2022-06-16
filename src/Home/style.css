@@ -66,20 +66,23 @@ body{
     align-items: center;
 }
 .btn-login .pop_login{
-    background-color: #fff;
-    border: #17a2b8 solid 1px ;
-    position: absolute !important;
-    top: 94%;
-    right: 10%;
-    border-radius: 5px;
-    width: 182px;
-    height: 96px;
-    text-align: center;
-    align-items: center;
-    padding-top: 12px;
+    background: #fff;
+    width: 185px;
+    right: 6%;
+    top: 50px;
+    box-shadow: 0px 1px 4px 0px #014c8f;
+    transform: scale(0);
+    pointer-events: none;
+    transform-origin: top;
+    transition: 0.5s all;
+    
 }
 .btn-login .popShow{
-    animation: popIn 0.3s linear;
+    transform: scale(1);
+    pointer-events: auto;
+    right: 10%; 
+    top: 58px;
+
 }
 .btn-login .pop_login a{
     
@@ -108,21 +111,7 @@ body{
     border:#0dcfed solid 2px;
 
 }
-@keyframes popIn{
-    from{
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1.0);
-    }
-}@keyframes popOut{
-    from{
-        transform: scale(1.0);
-    }
-    to{
-        transform: scale(0);
-    }
-}
+
 
 @keyframes rotateAround{
     from{
