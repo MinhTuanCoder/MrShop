@@ -10,16 +10,13 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
 
@@ -252,7 +249,7 @@
                         <h3>1000+ sản phẩm</h3>
                         <div class="title_content">10+ Thương hiệu</div>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-slide content" id="content_2">
                     <div class="icon_content">
@@ -262,7 +259,7 @@
                         <h3>100k khách hàng</h3>
                         <div class="title_content">Tin tưởng mua sắm</div>
                     </div>
-                   
+
                 </div>
                 <div class="swiper-slide content" id="content_3">
                     <div class="icon_content">
@@ -272,7 +269,7 @@
                         <h3>Hàng chính hãng</h3>
                         <div class="title_content">100% chính hãng</div>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-slide content" id="content_4">
                     <div class="icon_content">
@@ -282,7 +279,7 @@
                         <h3>Giao hàng miễn phí</h3>
                         <div class="title_content">Miễn phí nội thành</div>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-slide content" id="content_5">
                     <div class="icon_content">
@@ -292,7 +289,7 @@
                         <h3>Đổi hàng 07 ngày</h3>
                         <div class="title_content">Hoàn toàn miễn phí</div>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-slide content" id="content_6">
                     <div class="icon_content">
@@ -312,46 +309,58 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-          // Default parameters
-        slidesPerView: 6,
-        spaceBetween: 20,
-  // Responsive breakpoints
-    breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 20
-    },
-    // when window width is >= 480px
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 20
-    },
-    // when window width is >= 640px
-    640: {
-      slidesPerView: 3,
-      spaceBetween: 20
-    },
-    1000: {
-        slidesPerView:4,
-        spaceBetween:20
-    },
-    1200: {
-        slidesPerView:5,
-        spaceBetween:20
-    },
-    1400: {
-        slidesPerView:6,
-        spaceBetween:20
-    }
-    }
-  
-      });
+        var swiper = new Swiper(".mySwiper", {
+            // Default parameters
+            slidesPerView: 1,
+            spaceBetween: 20,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                   
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                  
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 3,
+                   
+                },
+                1000: {
+                    slidesPerView: 4,
+                   
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 20
+                },
+                1400: {
+                    slidesPerView: 6,
+                }
+            }
+
+        });
     </script>
 
     <!-- End service -->
+    <!-- Start Banner -->
+    <div class="m_banner mt-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col_banner" id="col_banner1"></div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col_banner" id="col_banner2"></div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col_banner" id="col_banner3"></div>
 
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Banner -->
 
 
 
