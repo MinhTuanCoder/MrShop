@@ -284,20 +284,45 @@ section .policy_and_service .content .text_content .title_content{
 }
 .m_banner .container .row{
     background-color: blueviolet;
-    height: 30px;
+    height: 100%;
+    
 }
 .m_banner #col_banner1{
     background-color: yellow;
-    height: 30px;
+    margin-top: 25px;
+    
 }
-.m_banner #col_banner2{
+.m_banner #col_banner1 .lacoste_sneaker{
+    height: 50%;
+    width: 100%;
+}
+.m_banner #col_banner1 .puma_sneaker{
+    background-color: #014c8f;
+    height: 50%;
+    width: 100%;
+}
+.m_banner #col_banner1 .lacoste_sneaker .lacoste_img a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.m_banner #col_banner1 .lacoste_sneaker .lacoste_title{
+    top:5px;
+    right: 5px;
+}
+.m_banner #col_banner1 .lacoste_sneaker .lacoste_title .title{
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+/* .m_banner #col_banner2{
     background-color: rgb(4, 255, 0);
     height: 30px;
 }
 .m_banner #col_banner3{
     background-color:#000;
     height: 30px;
-}
+} */
 
 
 /* End Banner */
