@@ -33,8 +33,5 @@ loginButton.addEventListener('click', (event)=>{
 	colLeft.classList.remove("active");
 	bodyOverlay.classList.add("d-none");
 	}
-	
-	
 })
-
 
