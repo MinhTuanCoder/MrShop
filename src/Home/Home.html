@@ -55,7 +55,7 @@
 
                         <img src="/Images/icon_user.jpg" alt="">
                         <div id="m_login" class="pop_login p-3 position-absolute rounded text-center">
-                            <a href="#" class="item_login d-block pt-1 pb-1">Đăng nhập</a>
+                            <a href="/src/user_login/index.html" class="item_login d-block pt-1 pb-1">Đăng nhập</a>
                             <a href="#" class="item_login d-block pt-1 pb-1">Đăng ký</a>
                         </div>
                     </div>
@@ -318,21 +318,22 @@
                 // when window width is >= 320px
                 320: {
                     slidesPerView: 1,
-                   
+                    spaceBetween: 20,
                 },
                 // when window width is >= 480px
                 480: {
                     slidesPerView: 2,
+                    spaceBetween: 20,
                   
                 },
                 // when window width is >= 640px
                 640: {
                     slidesPerView: 3,
-                   
+                    spaceBetween: 20,
                 },
                 1000: {
                     slidesPerView: 4,
-                   
+                    spaceBetween: 20,
                 },
                 1200: {
                     slidesPerView: 5,
@@ -340,6 +341,7 @@
                 },
                 1400: {
                     slidesPerView: 6,
+                    spaceBetween: 20,
                 }
             }
 
@@ -421,6 +423,105 @@
 
     </div>
     <!-- End Banner -->
+    <!-- Start special product -->
+    <div class="container">
+        <div class="special_product pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-4">
+                    Sản phẩm nổi bật
+                </a>
+            </h2>
+            <section class="position-relative">
+                <div class="container swiper mySwiper">
+                    <div class="content_product d-flex swiper-wrapper">
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_1.jpg" alt=""></a>
+                            <div class="title">
+                                <a href="">Giày nam Lacoste Chaymon 0221 - NaVy/TÍm</a>
+                                <p>2.750.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_2.jpg" alt="Giày Lacoste L001 0321 - Trắng-Đỏ mận"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Đỏ mận</a>
+                                <p>3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_3.jpg" alt="Giày Lacoste L001 0321 - Trắng-Navy-Đỏ"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Navy-Đỏ</a>
+                                <p>3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_4.jpg" alt="Giày Lacoste L001 0321 - Nâu"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Nâu</a>
+                                <p>3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_5.jpg" alt="Giày Lacoste L001 0321 - Trắng"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng</a>
+                                <p>2.850.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_6.jpg" alt="Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá</a>
+                                <p>2.500.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+                576: {
+                    slidesPerView: 2,
+      
+                },
+                768: {
+                    slidesPerView: 3,
+              
+                  
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 5,
+                   
+                },
+              
+            }
+        
+
+      });
+    </script>
+    <!-- End special product -->
+
+
 
 
 
