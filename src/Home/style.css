@@ -275,54 +275,153 @@ section .policy_and_service .content .text_content .title_content{
 /* End policy */
 /* Start Banner */
 .m_banner{
-    height: 368px;
-    background-color: #0dcfed;
+    height: auto;
+    /* background-color: #0dcfed; */
 }
 .m_banner .container{
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
 }
 .m_banner .container .row{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 100%;
     
 }
 .m_banner #col_banner1{
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 25px;
     
 }
-.m_banner #col_banner1 .lacoste_sneaker{
+#col_banner1 .lacoste_sneaker{
     height: 50%;
     width: 100%;
 }
-.m_banner #col_banner1 .puma_sneaker{
-    background-color: #014c8f;
-    height: 50%;
-    width: 100%;
+#col_banner1 .lacoste_sneaker:hover .lacoste_img a img{
+    transform: scale(1.1);
 }
-.m_banner #col_banner1 .lacoste_sneaker .lacoste_img a img{
-    width: 100%;
-    height: 100%;
+#col_banner1 .lacoste_sneaker:hover .lacoste_title{  /*Đổi màu nền cho phần tiêu đề*/
+       background-color: #014c8f;
+}
+
+#col_banner1 .lacoste_sneaker .lacoste_img a img, .puma_sneaker .puma_img img{
+    width: auto !important;
+    height: auto !important;
+    max-height: 100%;
+    max-width: 100%;
     border-radius: 20px;
+    object-fit: contain;
+    transition: all 0.5s;
 }
-.m_banner #col_banner1 .lacoste_sneaker .lacoste_title{
-    top:5px;
-    right: 5px;
+#col_banner1 .lacoste_sneaker .lacoste_title,.puma_sneaker .puma_title{
+    z-index: 9;
+    background: rgba(0,0,0,0.7);
+    padding: 7px 15px;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 10px;
+    top: 10px;
+    right:25px;
+    text-align: right;
 }
-.m_banner #col_banner1 .lacoste_sneaker .lacoste_title .title{
+#col_banner1 .lacoste_sneaker .lacoste_title .title, .puma_sneaker .title{
     text-transform: uppercase;
     font-size: 20px;
+    color: #fff;
 
 }
-/* .m_banner #col_banner2{
-    background-color: rgb(4, 255, 0);
-    height: 30px;
+#col_banner1 .lacoste_sneaker .lacoste_title span, .puma_sneaker span{
+    color: #ddd;
+
 }
-.m_banner #col_banner3{
-    background-color:#000;
-    height: 30px;
-} */
+#col_banner1 .puma_sneaker:hover .puma_img a img{
+    transform: scale(1.1);
+}
+#col_banner1 .puma_sneaker:hover .puma_title{  /*Đổi màu nền cho phần tiêu đề*/
+    background-color: #014c8f;
+}
+
+#col_banner2 .cole_haan_sneaker .cole_haan_img a img{
+    width: auto !important;
+    height: auto !important;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    transition: all 0.5s;
+}
+#col_banner2 .cole_haan_sneaker .cole_haan_title{
+    z-index: 9;
+    background: rgba(0,0,0,0.7);
+    padding: 7px 15px;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 10px;
+    top: -50%;
+    right:20%;
+    text-align: center;
+}
+#col_banner2 .cole_haan_sneaker .cole_haan_title h3{
+    color:#fff;
+    font-size:  20px;
+}
+#col_banner2 .cole_haan_sneaker .cole_haan_title span{
+    color: #ddd;
+}
+#col_banner2 .cole_haan_sneaker:hover .cole_haan_img a img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+#col_banner2 .cole_haan_sneaker:hover .cole_haan_title{  /*Đổi màu nền cho phần tiêu đề*/
+       background-color: #014c8f;
+}
+
+
+#col_banner3 .PK {
+    height:50%;
+    width: 100%;
+
+}
+#col_banner3 .PK .PK_img a img, .clother .clother_img img{
+    width: auto !important;
+    height: auto !important;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+    transition: all 0.5s;
+}
+#col_banner3 .PK .PK_title,.clother .clother_title{
+    z-index: 9;
+    background: rgba(0,0,0,0.7);
+    padding: 7px 15px;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 10px;
+    top: 10px;
+    right:25px;
+    text-align: right;
+}
+#col_banner3 .PK .PK_title .title, .clother .title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+
+}
+#col_banner3 .PK .PK_title span, .clother span{
+    color: #ddd;
+}
+#col_banner3 .PK:hover .PK_img a img{
+    transform: scale(1.1);
+}
+#col_banner3 .PK:hover .PK_title{  /*Đổi màu nền cho phần tiêu đề*/
+    background-color: #014c8f;
+}
+
+#col_banner3 .clother:hover .clother_img a img{
+    transform: scale(1.1);
+}
+#col_banner3 .clother:hover .clother_title{  /*Đổi màu nền cho phần tiêu đề*/
+    background-color: #014c8f;
+}
 
 
 /* End Banner */
@@ -378,7 +477,8 @@ section .policy_and_service .content .text_content .title_content{
     display: inline-block;
     margin-top: 25px;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    cursor: pointer;
 
 }
 .btn-hethongcuahang a{
@@ -445,7 +545,18 @@ footer .coppyright a:hover{
 /* End Footer */
 
 
-
+/* responsive cho màn hình mobile */
+@media screen and (max-width:566px){
+    #col_banner2 .cole_haan_sneaker{
+        margin-top: 70px;
+    }
+    #col_banner2 .cole_haan_sneaker .cole_haan_title{
+        top: -40%;
+        right:25%;
+       
+    }
+    
+}
 
 
 
