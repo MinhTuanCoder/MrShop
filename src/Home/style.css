@@ -435,6 +435,7 @@ section .policy_and_service .content .text_content .title_content{
 @media (min-width: 376px) and (max-width: 576px){
 .container .special_product h2{
     font-size: 18px;
+    transition: all 0.5s;
 }
 }
 
@@ -457,12 +458,16 @@ section .policy_and_service .content .text_content .title_content{
     padding: 10px 25px;
     
 }
+.container .special_product h2:hover{
+    opacity: 0.6;
+    transition: all 0.5s;
+}
 .container .special_product section{
     height: auto;
     padding: 10px 15px;
 }
 .container .special_product section .product{
-    transition: all 0.75s;
+   transition: all 0.5s;
 }
 .container .special_product section .product img{
     height: auto;
@@ -487,12 +492,60 @@ section .policy_and_service .content .text_content .title_content{
     font-weight: 600;
 }
 
-
 /* End special product */
 
 
+/* Start m_about */
+.m_about .container .row img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
+/* End m_about */
+
+/* Start Brand */
+.container .Brand_wrap h2{
+    font-size: 22px;
+    position: relative;
+    height: auto;
+  
+}
+.container .Brand_wrap h2:hover{
+    opacity: 0.7;
+}
+
+@media (min-width: 376px) and (max-width: 576px){
+.container .Brand_wrap h2{
+    font-size: 18px;
+}
+}
+
+.container .Brand_wrap h2:before{
+    background: #014c8f;
+    content: '';
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    display: block;
+    
+}
+
+.container .Brand_wrap h2 a{
+    position: relative;
+    color:#fff;
+    background-color: #014c8f;
+    padding: 10px 25px;
+    
+}
+.container .mySwiper_Brand .product img{
+    height: 80%;
+    width: 80%;
+    padding: 5px;
+}
+/* End Brand */
 
 
 
