@@ -499,10 +499,94 @@ section .policy_and_service .content .text_content .title_content{
 .m_about .container .row img{
     max-width: 100%;
     max-height: 100%;
+    transition: all 0.5s linear;
+    border-radius: 5%;
+    opacity: 0.7;
+}
+.m_about .container .row img:hover{
+    opacity: 1   ;
+    transform:  scale(1.05);
+    transition: all 0.5s linear;
 }
 
 
 /* End m_about */
+
+/* Start lacoste collection */
+
+.row .item_sale_off img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+
+}
+.row .item_sale_off img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: all 0.5s linear;
+}
+.row .item_sale_off .title_sale_off{
+    height: 100%;
+    padding: 20% 5%;
+}
+.title_sale_off a{
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title_sale_off a:hover{
+    color: #014c8f;
+}
+.price{
+    color: red;
+    font-weight: 600;
+}
+.row .banner_collection::before{
+    content: "";
+    background: url(//bizweb.dktcdn.net/100/058/141/themes/832769/assets/sale-bagde.png?1632795830242) no-repeat;
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    height: 90px;
+    width: 90px;
+    background-size: 90px;
+    z-index: 3;
+}
+
+.product_collection_item img{
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.0);
+    transition: all 0.5s linear;
+}
+.product_collection_item img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: all 0.5s linear;
+}
+.title_collection_item a{
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 700;
+}
+.title_collection_item a:hover{
+    color: #014c8f;
+}
+/* End lacoste collection */
+
+
+
+
+
+
+
+
+
+
 
 /* Start Brand */
 .container .Brand_wrap h2{
