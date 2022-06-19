@@ -4,9 +4,6 @@ function checkEmailValidate(email){
     // The email starts with 1 number
     //after the number must be 1 letter
     // The email ends with @admin
-    
-    
-
     if(emailPattern.test(email)){
         document.getElementById("emailHelp1").textContent='Mã Admin đã đúng định dạng';
         document.getElementById("emailHelp1").style.color='grey';

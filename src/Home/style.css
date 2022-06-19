@@ -577,7 +577,33 @@ section .policy_and_service .content .text_content .title_content{
     color: #014c8f;
 }
 /* End lacoste collection */
-
+ /* Start Brand sneaker */
+.product_brand_sneaker img{
+    max-width: 100%;
+    border-radius: 5%;
+    transform: scale(1.0);
+    transition: all 0.5s linear;
+}
+.product_brand_sneaker img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: all 0.5s linear;
+}
+.product_brand_sneaker .title{
+    margin: 30px 10px;
+    background-color: rgba(255, 237, 237,0.4);
+}
+.product_brand_sneaker .title h6{
+    color: #4c4c4c;
+    font-size: 15px;
+}
+.product_brand_sneaker .title a{
+    text-decoration: none;
+}
+.product_brand_sneaker .title a:hover h6{
+    color: #014c8f;
+}
+ /* End Brand sneaker */
 
 
 
