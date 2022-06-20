@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Liên hệ</title>
+</head>
+
+<body>
+    <header>
+        <div id="Body_overlay" class="position-fixed d-none"></div>
+        <div class="header fixed-top">
+
+            <div class="container">
+
+                <div class="menubar">
+
+                    <div class="btn-menu">
+                        <button id="js-menu-toggle">
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+                            <b class="d-none d-md-inline-block">MENU</b>
+                        </button>
+                    </div>
+
+                    <a href="#" class="m-auto w-auto">
+                        <img class="img-fluid" src="./Images/logo.jpg" alt="Logo">
+                    </a>
+
+                    <a href="" class="d-flex h_zoom p-2">
+                        <img src="./Images/icon_search.jpg" alt="">
+                    </a>
+
+                    <div class="btn-login h_zoom p-2" id="js-login-toggle">
+
+                        <img src="./Images/icon_user.jpg" alt="">
+                        <div id="m_login" class="pop_login p-3 position-absolute rounded text-center">
+                            <a href="./login.html" class="item_login d-block pt-1 pb-1">Đăng nhập</a>
+                            <a href="#" class="item_login d-block pt-1 pb-1">Đăng ký</a>
+                        </div>
+                    </div>
+
+                    <a href="" class="d-none d-lg-flex position-relative h_zoom p-2">
+                        <img src="./Images/icon_cart.jpg" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="nav-left d-flex">
+                <div class="col-left position-fixed flex-column" id="col-left">
+                    <div class="logo text-center mt-3">
+                        <a href="/" title="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG">
+                            <img alt="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG"
+                                src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/logo.png?1653150649282"
+                                class="img-fluid">
+                        </a>
+
+
+                    </div>
+                    <button id="btn-close" class="btn-close">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"></svg>
+                    </button>
+
+
+                    <div class="navigation-block mt-5">
+                        <ul id="menu" class="">
+                            <li class="active">
+                                <a href="/" title="Trang chủ" class="">Trang chủ</a>
+                            </li>
+                            <li class="">
+                                <a href="/gioi-thieu" title="GIỚI THIỆU" class="">GIỚI THIỆU</a>
+                            </li>
+                            <li class="">
+                                <a href="/" title="Sản phẩm" class="">Sản phẩm</a>
+                                <i class=""></i>
+                                <ul class="">
+                                    <li class="">
+                                        <a href="/san-pham-noi-bat" class="" title="Sản phẩm nổi bật">Sản phẩm nổi
+                                            bật</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/bo-suu-tap-moi" class="" title="Bộ sưu tập mới">Bộ sưu tập mới</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/bo-suu-tap-2021" class="" title="Bộ sưu tập 2021">Bộ sưu tập 2021</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/san-pham-ban-chay" class="" title="Sản phẩm bán chạy">Sản phẩm bán
+                                            chạy</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/san-pham-khuyen-mai" class="" title="Sản phẩm khuyến mãi">Sản phẩm
+                                            khuyến mãi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="/giay-lacoste" title="GIÀY LACOSTE" class="">GIÀY LACOSTE</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-puma" title="GIÀY PUMA" class="">GIÀY
+                                    PUMA</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-cole-haan" title="GIÀY COLE HAAN" class="">GIÀY COLE HAAN</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-adidas" title="GIÀY ADIDAS" class="">GIÀY
+                                    ADIDAS</a>
+                            </li>
+                            <li class="">
+                                <a href="/quan-ao" title="QUẦN ÁO" class="">QUẦN
+                                    ÁO</a>
+                            </li>
+                            <li class="">
+                                <a href="/phu-kien" title="PHỤ KIỆN" class="">PHỤ
+                                    KIỆN</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_left_contact">
+                        <ul id="menu-dv" class="">
+                            <li class="">
+                                <a href="/collections/all" title="Cửa hàng Online" class="">Cửa hàng Online</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/huong-dan" title="Hướng dẫn mua hàng" class="">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/chinh-sach-thanh-toan" title="Chính sách thanh toán" class="">Chính sách thanh
+                                    toán</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/lien-he" title="Địa chỉ liên hệ" class="">Địa chỉ liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_left_social">
+                        <ul class="p-0 mt-auto mb-0 box_vendor list-unstyled d-grid">
+                        </ul>
+                        <div class="container p-2">
+
+                            <a href="https://www.facebook.com/thelap.nguyen.9999" title="facebook" class="facebook"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/facebook.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/facebook.png?1653150649282"
+                                    class="lazy" alt="Facebook"></a>
+
+                            <a href="https://twitter.com/nguyenthelap" title="twitter" class="twitter"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/twitter.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/twitter.png?1653150649282"
+                                    class="lazy" alt="Twitter"></a>
+
+                            <a href="https://www.instagram.com/thelapnguyen/" title="instagram" class="instagram"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/instagram.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/instagram.png?1653150649282"
+                                    class="lazy" alt="Instagram"></a>
+
+                            <a href="https://www.youtube.com/channel/UCE-XLVAG6SeWZjILaGF_F1w" title="youtube"
+                                class="youtube"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/youtube.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/youtube.png?1653150649282"
+                                    class="lazy" alt="Youtube"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <!-- Start content wrap -->
+    <div class="content-wrap">
+        <div class="container text-center pt-3">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 title-link">
+                    <a href="./index.html">Trang chủ</a>
+                    <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <a href="#" style="font-weight:700;">Liên hệ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End content Wrap -->
+
+    <!-- Start main content -->
+    <div class="container main-content">
+        <h1 class="text-center">Liên hệ</h1>
+        <div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="content-contact justify-content-center mb-3">
+                        Cửa hàng MR SHOP là cửa hàng cung cấp giày, dép, quần áo, phụ kiện thời trang, thể thao chính
+                        hãng với hơn 6 năm kinh nghiệm trong lĩnh vực bán buôn, phân phối và bán lẻ hàng hóa trong lĩnh
+                        vực này.
+                        <br>
+
+                        Trong hơn 6 năm 2015-2021 chúng tôi hãnh diện là nhà phân phối, bán lẻ hàng chính hãng có tiếng
+                        ở VN, đã cung cấp rất nhiều sản phẩm cho người nổi tiếng, các cửa hàng có tiếng và mang đến quý
+                        khách hàng sản phẩm chính hãng, hơn thế nữa cung cấp chế độ hậu mãi sau mua hàng giúp cho quý
+                        khách yên tâm sử dụng sản phẩm.
+                    </div>
+                    <p><b>Trụ sở chính: </b>K1 - KĐT Việt Hưng, Q. Long Biên, Hà Nội</p>
+                    <p><b>Hotline: </b><a href="#">0825269999</a></p>
+                    <p><b>Email: </b><a href="#">nguyenthelap0611@gmail.com</a></p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form accept-charset="utf-8" action="/contact" id="contact" method="post">
+                        <div class="customer-name row">
+                            <div class="col-12 form-group mb-3">
+                                <input type="text" class="form-control" name="contact[Name]" placeholder="Họ tên *"
+                                    required="">
+                            </div>
+                            <div class="col-12 form-group mb-3">
+                                <input type="email" class="form-control" name="contact[email]" placeholder="Email *"
+                                    required="">
+                            </div>
+                            <label class="d-none">Nội dung <span class="required">*</span></label>
+                            <div class="col-12 form-group mb-3">
+                                <textarea name="contact[Body]" placeholder="Lời nhắn *" class="form-control"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+                        <span class="require d-block mb-3"><em class="required">* </em>Thông tin bắt buộc</span>
+                        <div class="buttons-set">
+                            <button title="Submit"
+                                class="btn btn-primary text-center d-flex align-items-center">
+                                <span> Gửi </span> </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.1440755727704!2d105.905153314855!3d21.0669070859777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9b96d9f711f%3A0xc9540e5fa0aaec1d!2zSzEsIFbhuqFuIEjhuqFuaCwgxJDhu6ljIEdpYW5nLCBMb25nIEJpw6puLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1655738436653!5m2!1svi!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- End main content -->
+
+
+
+    <!-- Start shop system -->
+    <div class="under-footer">
+        <div class="container  text-center pt-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>CỬA HÀNG MR SHOP</h3>
+                    <div class="container btn-hethongcuahang">
+                        <a href="/lien-he" class="rb-repline-selected " title="Hệ thống cửa hàng">Hệ thống cửa
+                            hàng</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End shop system -->
+
+
+
+
+    <!-- start footer  -->
+    <footer>
+        <div class="notes container row d-flex">
+
+            <div class="col-xl-4 col-sm-12 lienhe">
+                <h3>Liên hệ</h3>
+                <h4>GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG</h4>
+                <p>Địa chỉ: Nhà K1, khu đô thị Việt Hưng, Long Biên, Hà Nội</p>
+                <p>Địa chỉ: Nhà K1, khu đô thị Việt Hưng, Long Biên, Hà Nội</p>
+                <p>Email:
+                    <a href="mailto: nguyenthelap0611@gmail.com" title=" nguyenthelap0611@gmail.com">
+                        nguyenthelap0611@gmail.com</a>
+                </p>
+                <p>Số điện thoại:
+                    <a href="tel:0825269999" title="08 2526 9999">08 2526 9999</a>
+                </p>
+                <div class="footer-column-1">
+                    <div class="payment-accept">
+                        <div>
+                            <img class="first lazy" src="./Images/paypal.jpg" alt="payment-1">
+
+                            <img class="lazy" src="./Images/visa.jpg" alt="payment-2">
+
+
+                            <img class="lazy" src="./Images/mastercard.jpg" alt="payment-3">
+
+
+                            <img class="lazy" src="./Images/american.jpg" alt="payment-4">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xl-2  col-sm-12 dieukhoan">
+                <h4>
+                    Điều khoản
+
+                </h4>
+                <div>
+                    <ul class="list-menu">
+
+                        <li class="li_menu"><a href="https://www.facebook.com/thelap.nguyen.9999" class="">Facebook
+                                cá
+                                nhân</a></li>
+
+                        <li class="li_menu"><a href="https://www.facebook.com/ShoesMrShop" class="">Fanpage</a>
+                        </li>
+
+                        <li class="li_menu"><a href="https://shopee.vn/mrshop_vn" class="">Shopee</a></li>
+
+                        <li class="li_menu"><a href="https://www.lazada.vn/shop/mr-shop">Lazada</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-sm-12 huongdan">
+                <h4>
+                    <a>
+                        Hướng dẫn
+                    </a>
+                </h4>
+
+                <ul class="list-menu">
+
+                    <li class="li_menu"><a href="/huong-dan">Hướng dẫn mua hàng</a></li>
+
+                    <li class="li_menu"><a href="/search">Tìm kiếm</a></li>
+
+                    <li class="li_menu"><a href="/chinh-sach-thanh-toan">Thanh toán</a></li>
+
+                    <li class="li_menu"><a href="/chinh-sach-doi-tra">Đổi trả</a></li>
+
+                    <li class="li_menu"><a href="/chinh-sach-bao-hanh">Bảo hành</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-xl-2 col-sm-12 chinhsach">
+
+
+                <h4>
+                    <a>
+                        Chính sách
+                    </a>
+                </h4>
+
+                <ul class="list-menu">
+
+                    <li class="li_menu"><a href="/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+
+                    <li class="li_menu"><a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+
+                    <li class="li_menu"><a href="/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+
+                </ul>
+
+
+            </div>
+            <div class="col-xl-2 col-sm-12 sanpham">
+
+                <h4>
+                    <a>
+                        Sản phẩm
+                    </a>
+                </h4>
+
+                <ul class="list-menu">
+
+                    <li class="li_menu"><a href="/">Trang chủ</a></li>
+
+                    <li class="li_menu"><a href="/gioi-thieu">GIỚI THIỆU</a></li>
+
+                    <li class="li_menu"><a href="/collections/all">Sản phẩm</a></li>
+
+                    <li class="li_menu"><a href="/giay-lacoste">GIÀY LACOSTE</a></li>
+
+                    <li class="li_menu"><a href="/giay-puma">GIÀY PUMA</a></li>
+
+                    <li class="li_menu"><a href="/giay-cole-haan">GIÀY COLE HAAN</a></li>
+
+                    <li class="li_menu"><a href="/giay-adidas">GIÀY ADIDAS</a></li>
+
+                    <li class="li_menu"><a href="/quan-ao">QUẦN ÁO</a></li>
+
+                    <li class="li_menu"><a href="/phu-kien">PHỤ KIỆN</a></li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+        <div class="container d-flex mt-3">
+
+
+            <div class="coppyright pt-3">
+                Toàn bộ bản quyền thuộc MR SHOP. Cung cấp bởi <a
+                    href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&amp;utm_source=site_khach_hang&amp;utm_medium=referral&amp;utm_content=fm:text_link-km:-sz:&amp;utm_term=&amp;campaign=site_khach_hang"
+                    title="Sapo" target="_blank" rel="nofollow noopener">Sapo</a>.</div>
+
+
+        </div>
+    </footer>
+
+    <!-- end footer  -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
