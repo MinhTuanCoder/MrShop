@@ -791,7 +791,31 @@ section .policy_and_service .content .text_content .title_content{
 /* End customer reviews */
 
 
+/* Start news */
 
+
+.news{
+    margin: 5% 5% 5% 0;
+}
+.news:hover .news-img img{
+    opacity: 0.9   ;
+    transform:  scale(1.05);
+    transition: all 0.3s linear;
+}
+.news .news-title{
+    max-width: 100%;
+}
+.news .news-title h3 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+.news .news-title h3 a:hover{
+    color: #014c8f;
+}
+
+/* End news */
 
 
 
