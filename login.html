@@ -5,56 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng nhập tài khoản </title>
-     <!--Css main-->
-    <link rel="stylesheet" href="./css/login.css">
+    <!--Css main-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/login.css">
+
 </head>
 
 <body>
-    <section>
+    <section class="login-layout d-flex align-items-center justify-content-center">
         <!--Bắt Đầu Phần Nội Dung-->
-        <div class="noi-dung">
-            <div class="form">
-                <h2>Đăng nhập</h2>
-                <form action="">
-                    <div class="input-form">
-
-                        <input type="text" placeholder="Email">
-                    </div>
-                    <div class="input-form">
-
-                        <input type="password" placeholder="Mật khẩu">
-                    </div>
-                    <div class="input-form">
-                        <input type="submit" value="Đăng Nhập">
-                    </div>
-                    <div class="quen-mat-khau">
-                        <input type="submit" value="Quên mật khẩu ">
-                    </div>
-                </form>
-                <h3>Hoặc đăng nhập qua</h3>
-                <ul class="icon-dang-nhap">
-                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-google" aria-hidden="true"></i></li>
-
-                </ul>
-                <div class="input-form">
-                    <p> <a href="#" Đăng ký ></a></p>
+        <div class="registered-users ">
+            <form action="">
+                <h3 class="font-weight-bold mb-3 whites text-center ">Đăng nhập</h3>
+                <div class="form-group">
+                    <input type="text" placeholder="Email" class="border-mew mew-control">
                 </div>
-                <div class="input-form">
-                    <input type="submit" value="Tạo tài khoản">
+                <div class="form-group">
+                    <input type="password" placeholder="Mật Khẩu" class="border-mew mew-control">
                 </div>
-                <div class="input-form">
-                    <input type="submit" value="Quay về trang chủ">
+                <div class="form-group d-flex justify-content-between align-items-center">
+                    <button type="submit"
+                        class=" f15 btn btn-primary border-mew mew-control lk font-weight-bold main_bt banner-w modal-open position-relative">
+                        Đăng Nhập
+                    </button>
+                    <a href="#" class="whites font-weight-bold">
+                        Quên mật khẩu?
+                    </a>
                 </div>
-                
+            </form>
+            <div class="login_isocial">
+                <div class="log_iso position-relative text-center">
+                    <span class="d-inline-block position-relative">
+                        Hoặc đăng nhập qua
+                    </span>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="#" class="social-login--facebook">
+                        <img width="129px" height="37px"
+                            src="https://bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg" alt="">
+                    </a>
+                    <a href="#" class="social-login--google">
+                        <img width="129px" height="37px"
+                            src="https://bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg" alt="">
+                    </a>
+                </div>
             </div>
-        </div>
-        <!--Kết Thúc Phần Nội Dung-->
+            <div class="new-user">
+                <h3 class="font-weight-bold mb-3 mt-4 whites text-center">Đăng ký</h3>
+                <div class="content">
+                    <p class="line_cus whites text-center">Tạo tài khoản để quản lý đơn hàng, và các thông tin thanh
+                        toán, gửi hàng một cách đơn giản hơn.</p>
+                    <div class="buttons-set text-center">
+                        <button class="btn btn-primary border-mew mew-control font-weight-bold mb-2">
+                            Tạo tài khoản
+                        </button>
+                        <button onclick="window.location.href='/'"
+                            class="btn btn-primary border-mew mew-control font-weight-bold">
+                            Quay về trang chủ
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Kết Thúc Phần Nội Dung-->
     </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
