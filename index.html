@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG, www.mrshop.vn</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div id="Body_overlay" class="position-fixed d-none"></div>
+        <div class="header fixed-top">
+
+            <div class="container">
+
+                <div class="menubar">
+
+                    <div class="btn-menu">
+                        <button id="js-menu-toggle">
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+                            <b class="d-none d-md-inline-block">MENU</b>
+                        </button>
+                    </div>
+
+                    <a href="#" class="m-auto w-auto">
+                        <img class="img-fluid" src="/Images/logo.jpg" alt="Logo">
+                    </a>
+
+                    <a href="" class="d-flex h_zoom p-2">
+                        <img src="/Images/icon_search.jpg" alt="">
+                    </a>
+
+                    <div class="btn-login h_zoom p-2" id="js-login-toggle">
+
+                        <img src="/Images/icon_user.jpg" alt="">
+                        <div id="m_login" class="pop_login p-3 position-absolute rounded text-center">
+                            <a href="/src/user_login/index.html" class="item_login d-block pt-1 pb-1">Đăng nhập</a>
+                            <a href="#" class="item_login d-block pt-1 pb-1">Đăng ký</a>
+                        </div>
+                    </div>
+
+                    <a href="" class="d-none d-lg-flex position-relative h_zoom p-2">
+                        <img src="/Images/icon_cart.jpg" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="nav-left d-flex">
+                <div class="col-left position-fixed flex-column" id="col-left">
+                    <div class="logo text-center mt-3">
+                        <a href="/" title="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG">
+                            <img alt="GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG"
+                                src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/logo.png?1653150649282"
+                                class="img-fluid">
+                        </a>
+
+
+                    </div>
+                    <button id="btn-close" class="btn-close">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"></svg>
+                    </button>
+
+
+                    <div class="navigation-block mt-5">
+                        <ul id="menu" class="">
+                            <li class="active">
+                                <a href="/" title="Trang chủ" class="">Trang chủ</a>
+                            </li>
+                            <li class="">
+                                <a href="/gioi-thieu" title="GIỚI THIỆU" class="">GIỚI THIỆU</a>
+                            </li>
+                            <li class="">
+                                <a href="/" title="Sản phẩm" class="">Sản phẩm</a>
+                                <i class=""></i>
+                                <ul class="">
+                                    <li class="">
+                                        <a href="/san-pham-noi-bat" class="" title="Sản phẩm nổi bật">Sản phẩm nổi
+                                            bật</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/bo-suu-tap-moi" class="" title="Bộ sưu tập mới">Bộ sưu tập mới</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/bo-suu-tap-2021" class="" title="Bộ sưu tập 2021">Bộ sưu tập 2021</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/san-pham-ban-chay" class="" title="Sản phẩm bán chạy">Sản phẩm bán
+                                            chạy</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/san-pham-khuyen-mai" class="" title="Sản phẩm khuyến mãi">Sản phẩm
+                                            khuyến mãi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="/giay-lacoste" title="GIÀY LACOSTE" class="">GIÀY LACOSTE</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-puma" title="GIÀY PUMA" class="">GIÀY
+                                    PUMA</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-cole-haan" title="GIÀY COLE HAAN" class="">GIÀY COLE HAAN</a>
+                            </li>
+                            <li class="">
+                                <a href="/giay-adidas" title="GIÀY ADIDAS" class="">GIÀY
+                                    ADIDAS</a>
+                            </li>
+                            <li class="">
+                                <a href="/quan-ao" title="QUẦN ÁO" class="">QUẦN
+                                    ÁO</a>
+                            </li>
+                            <li class="">
+                                <a href="/phu-kien" title="PHỤ KIỆN" class="">PHỤ
+                                    KIỆN</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_left_contact">
+                        <ul id="menu-dv" class="">
+                            <li class="">
+                                <a href="/collections/all" title="Cửa hàng Online" class="">Cửa hàng Online</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/huong-dan" title="Hướng dẫn mua hàng" class="">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/chinh-sach-thanh-toan" title="Chính sách thanh toán" class="">Chính sách thanh
+                                    toán</a>
+                            </li>
+                            <li class=" level0 position-relative cls">
+                                <a href="/lien-he" title="Địa chỉ liên hệ" class="">Địa chỉ liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_left_social">
+                        <ul class="p-0 mt-auto mb-0 box_vendor list-unstyled d-grid">
+                        </ul>
+                        <div class="container p-2">
+
+                            <a href="https://www.facebook.com/thelap.nguyen.9999" title="facebook" class="facebook"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/facebook.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/facebook.png?1653150649282"
+                                    class="lazy" alt="Facebook"></a>
+
+                            <a href="https://twitter.com/nguyenthelap" title="twitter" class="twitter"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/twitter.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/twitter.png?1653150649282"
+                                    class="lazy" alt="Twitter"></a>
+
+                            <a href="https://www.instagram.com/thelapnguyen/" title="instagram" class="instagram"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/instagram.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/instagram.png?1653150649282"
+                                    class="lazy" alt="Instagram"></a>
+
+                            <a href="https://www.youtube.com/channel/UCE-XLVAG6SeWZjILaGF_F1w" title="youtube"
+                                class="youtube"><img
+                                    src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/youtube.png?1653150649282"
+                                    data-src="//bizweb.dktcdn.net/100/058/141/themes/832769/assets/youtube.png?1653150649282"
+                                    class="lazy" alt="Youtube"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- Start carousel  -->
+    <div class="slider">
+
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="/Images/slider1.jpg" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="/Images/slider2.jpg" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="/Images/slider3.jpg" class="d-block w-100" alt="...">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- End carousel -->
+    <!-- Start Service -->
+    <section>
+        <div class="swiper mySwiper container rounded p-3 border mt-4 pt-sm-4 pt-3 pb-sm-4 pb-3">
+            <div class="swiper-wrapper policy_and_service">
+                <div class="swiper-slide content container" id="content_1">
+                    <div class="icon_content">
+                        <img src="/Images/icon_product.jpg" alt="1000+ sản phẩm">
+                    </div>
+                    <div class="text_content">
+                        <h3>1000+ sản phẩm</h3>
+                        <div class="title_content">10+ Thương hiệu</div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide content" id="content_2">
+                    <div class="icon_content">
+                        <img src="/Images/icon_smile.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <h3>100k khách hàng</h3>
+                        <div class="title_content">Tin tưởng mua sắm</div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide content" id="content_3">
+                    <div class="icon_content">
+                        <img src="/Images/icon_like.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <h3>Hàng chính hãng</h3>
+                        <div class="title_content">100% chính hãng</div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide content" id="content_4">
+                    <div class="icon_content">
+                        <img src="/Images/icon_car.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <h3>Giao hàng miễn phí</h3>
+                        <div class="title_content">Miễn phí nội thành</div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide content" id="content_5">
+                    <div class="icon_content">
+                        <img src="/Images/icon_return.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <h3>Đổi hàng 07 ngày</h3>
+                        <div class="title_content">Hoàn toàn miễn phí</div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide content" id="content_6">
+                    <div class="icon_content">
+                        <img src="/Images/icon_vip.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <h3>Khách VIP</h3>
+                        <div class="title_content">Ưu đãi hấp dẫn</div>
+                    </div>
+                </div>
+                <div class="swiper-slide"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // Default parameters
+            slidesPerView: 1,
+            spaceBetween: 20,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1000: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 20
+                },
+                1400: {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                }
+            }
+
+        });
+    </script>
+
+    <!-- End service -->
+    <!-- Start Banner -->
+    <div class="m_banner mt-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col_banner" id="col_banner1">
+                    <div class="lacoste_sneaker mb-5">
+                        <div class="lacoste_img position-relative">
+                            <a href="#" alt="Giày Lacoste">
+                                <img src="/Images/banner_lacoste.jpg" alt="Giày Lacoste">
+                            </a>
+                        </div>
+                        <div class="lacoste_title position-absolute">
+                            <h3 class="title">Giày Lacoste</h3>
+                            <span>53 sản phẩm</span>
+                        </div>
+
+                    </div>
+                    <div class="puma_sneaker mb-5">
+                        <div class="puma_img position-relative">
+                            <a href="#" alt="Giày Puma">
+                                <img src="/Images/banner_puma.jpg" alt="Giày Puma">
+                            </a>
+                        </div>
+                        <div class="puma_title position-absolute">
+                            <h3 class="title">Giày Puma</h3>
+                            <span>13 sản phẩm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12  col-md-6 col-lg-4 col_banner" id="col_banner2">
+                    <div class="cole_haan_sneaker mb-5">
+                        <div class="cole_haan_img position-relative">
+                            <a href="#" alt="Giày Cole Haan">
+                                <img src="/Images/banner_cole_haan.jpg" alt="Giày Cole  Haan">
+                            </a>
+                        </div>
+                        <div class="cole_haan_title position-absolute">
+                            <h3 class="title">Giày Cole Haan</h3>
+                            <span>5 sản phẩm</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col_banner" id="col_banner3">
+                    <div class="PK mb-5">
+                        <div class="PK_img position-relative">
+                            <a href="#" alt="Phụ kiện">
+                                <img src="/Images/banner_PK.jpg" alt="Phụ kiện">
+                            </a>
+                        </div>
+                        <div class="PK_title position-absolute">
+                            <h3 class="title">Phụ kiện</h3>
+                            <span>22 sản phẩm</span>
+                        </div>
+
+                    </div>
+                    <div class="clother mb-5">
+                        <div class="clother_img position-relative">
+                            <a href="#" alt="Quần áo">
+                                <img src="/Images/banner_clother.jpg" alt="Quần áo">
+                            </a>
+                        </div>
+                        <div class="clother_title position-absolute">
+                            <h3 class="title">Quần áo</h3>
+                            <span>50 sản phẩm</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- End Banner -->
+    <!-- Start special product -->
+    <div class="container">
+        <div class="special_product pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-5">
+                    Sản phẩm nổi bật
+                </a>
+            </h2>
+            <section class="position-relative">
+                <div class="container swiper mySwiper_special_product">
+                    <div class="content_product d-flex swiper-wrapper">
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_1.jpg" alt=""></a>
+                            <div class="title">
+                                <a href="">Giày nam Lacoste Chaymon 0221 - NaVy/TÍm</a>
+                                <p class="price">2.750.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_2.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng-Đỏ mận"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Đỏ mận</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_3.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng-Navy-Đỏ"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Navy-Đỏ</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_4.jpg" alt="Giày Lacoste L001 0321 - Nâu"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Nâu</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_5.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng</a>
+                                <p class="price">2.850.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_6.jpg"
+                                    alt="Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá</a>
+                                <p class="price">2.500.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper_special_product = new Swiper(".mySwiper_special_product", {
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+
+                },
+                768: {
+                    slidesPerView: 3,
+
+
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 5,
+
+                },
+
+            }
+
+
+        });
+    </script>
+    <!-- End special product -->
+
+
+    <!-- Start Best seller -->
+    <div class="container">
+        <div class="special_product pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-5">
+                    Bán chạy nhất 2021
+                </a>
+            </h2>
+            <section class="position-relative">
+                <div class="container swiper mySwiper_best_seller">
+                    <div class="content_product d-flex swiper-wrapper">
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_1.jpg" alt=""></a>
+                            <div class="title">
+                                <a href="">Giày nam Lacoste Chaymon 0221 - NaVy/TÍm</a>
+                                <p class="price">2.750.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_2.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng-Đỏ mận"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Đỏ mận</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_3.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng-Navy-Đỏ"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng-Navy-Đỏ</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_4.jpg" alt="Giày Lacoste L001 0321 - Nâu"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Nâu</a>
+                                <p class="price">3.000.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_5.jpg"
+                                    alt="Giày Lacoste L001 0321 - Trắng"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste L001 0321 - Trắng</a>
+                                <p class="price">2.850.000đ</p>
+                            </div>
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/special_product_6.jpg"
+                                    alt="Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá"></a>
+                            <div class="title">
+                                <a href="">Giày Lacoste Menerva Sport 0120 - Trắng/Xanh lá</a>
+                                <p class="price">2.500.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper_best_seller = new Swiper(".mySwiper_best_seller", {
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+
+                },
+                768: {
+                    slidesPerView: 3,
+
+
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 5,
+
+                },
+
+            }
+
+
+        });
+    </script>
+
+    <!-- End Best seller -->
+
+
+    <!-- Start m_about -->
+    <div class="m_about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-3 col-12 d-sm-block">
+                    <a href="#"><img src="/Images/banner_1.jpg" alt="mrshop"></a>
+                </div>
+                <div class="col-sm-6 col-12 ">
+                    <a href="#"><img src="/Images/banner_2.jpg" alt="mrshop"></a>
+                </div>
+                <div class="col-sm-3 col-12 d-sm-block">
+                    <a href="#"><img src="/Images/banner_3.jpg" alt="mrshop"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End m_about -->
+
+    <!-- start collection -->
+    <div class="container">
+        <div class="special_product pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border-5 rounded-5">
+                    Bộ sưu tập Lacoste
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-xl-9 col-12 d-flex mt-4 position-relative banner_collection">
+                    <div class="item_sale_off d-flex border rounded align-items-center text-center p-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-xl-6">
+                                <a href="" class="p-2"><img src="/Images/bg_only_item.jpg" alt="Giày nam Lacoste Slip on Jump Serve Canvas Printed - Xanh đậm/Gum
+                                "></a>
+                            </div>
+                            <div class="col-sm-12 col-xl-6">
+                                <div class="title_sale_off text-start">
+                                    <a href="" >Giày nam Lacoste Slip on Jump Serve Canvas Printed - Xanh đậm/Gum
+                                    </a>
+                                    <p>Giày nam Lacoste Slip on Jump Serve Canvas Printed – Xanh đậm/Gum Mã sản phẩm: 7-43CMA0063GRG Được thiết kế với phong cách trẻ trung, khỏe khoắn và lịch lãm mang ...
+                                    </p>
+                                    <p class="price">2.300.000đ</p>
+                                    <p>Nội dung đang cập nhật</p>
+    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-12 d-flex align-items-center pt-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="product_collection_item rounded d-flex justify-content-center align-items-center border p-2 mb-2">
+                                <a href="" class="col-4 p-0"><img src="/Images/collection_product_1.jpg" alt=""></a>
+                                <div class="title_collection_item col-8 p-2">
+                                    <a href="">Giày nam Lacoste L001 Colour-Pop 0722 – Trắng/Đen </a>
+                                    <p class="price">3.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="product_collection_item rounded d-flex justify-content-center align-items-center border p-2 mb-2">
+                                <a href="" class="col-4 p-0"><img src="/Images/collection_product_2.jpg" alt=""></a>
+                                <div class="title_collection_item col-8 p-2">
+                                    <a href="">Giày nam Lacoste L001 Colour-Pop 0722 – Trắng/Đen </a>
+                                    <p class="price">3.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="product_collection_item rounded d-flex justify-content-center align-items-center border p-2 mb-2">
+                                <a href="" class="col-4 p-0"><img src="/Images/collection_product_3.jpg" alt=""></a>
+                                <div class="title_collection_item col-8 p-2">
+                                    <a href="">Giày nam Lacoste L001 Colour-Pop 0722 – Trắng/Đen </a>
+                                    <p class="price">3.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="product_collection_item rounded d-flex justify-content-center align-items-center border p-2 mb-2">
+                                <a href="" class="col-4 p-0"><img src="/Images/collection_product_4.jpg" alt=""></a>
+                                <div class="title_collection_item col-8 p-2">
+                                    <a href="">Giày nam Lacoste L001 Colour-Pop 0722 – Trắng/Đen </a>
+                                    <p class="price">3.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End collection -->
+
+      <!-- Start Brand sneaker  -->
+      <div class="container">
+        <div class="Brand_wrap pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-5">
+                    Sneaker Thương hiệu
+                </a>
+            </h2>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative ">
+                        <a href=""><img src="/Images/brand_sneaker_1.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày nam Lacoste Chaymon 0221 – Navy/Tím</h6></a>
+                            <p class="price">2.750.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_2.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste L001 0321 - Trắng-Đỏ mận</h6></a>
+                            <p class="price">3.000.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_3.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste L001 0321 - Trắng-Navy-Đỏ</h6></a>
+                            <p class="price">3.000.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_4.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste L001 0321 - Nâu</h6></a>
+                            <p class="price">3.000.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_5.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste L001 0321 - Trắng</h6></a>
+                            <p class="price">2.850.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_6.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste Menerva Sport 0120 – Trắng/Xanh lá</h6></a>
+                            <p class="price">2.500.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_8.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste Carnaby BL21 - Trắng</h6></a>
+                            <p class="price">2.500.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 pb-2 pt-2">
+                    <div class="product_brand_sneaker w-100 position-relative">
+                        <a href=""><img src="/Images/brand_sneaker_8.jpg" alt=""></a>
+                        <div class="title">
+                            <a href=""><h6>Giày Lacoste Jump Serve Lace 0721 – Đen</h6></a>
+                            <p class="price">2.300.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- End Bran sneaker -->
+    <!--Start customer reviews -->
+    <div class="customer_reviews">
+        <div class="container">
+            <div class="row">   
+                <div class="title_reviews position-absolute d-inline-block text-center">
+                    <h2 class="position-relative font-weight-bold" title="Đánh giá khách hàng">Đánh giá khách hàng</h2>
+                </div>
+                <div class="swiper mySwiper-reviews">
+                    <div class="swiper-wrapper some_reviews text-center d-flex">
+                        <div class="review swiper-slide">
+                            <div class="layer"></div>
+                            <div class="avatar-reviewer text-center position-relative d-inline-block mb-4">
+                                <img src="/Images/reviewer_1.jpg" alt="Hương Suri">
+                            </div>
+                            <div class="star mb-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="name-reviewer mb-4">
+                                <a href="#" class="font-weight-bold">Hương Suri - Giáo viên</a>
+                            </div>
+                            <div class="content-review">
+                                <span>
+                                    Adidas Stan Smith là một trong những đôi giày thời đại mang đến cho mình cảm giác hứng khởi mỗi khi xỏ chân vào. Các bạn chưa biết chọn giày ở đâu có thể tham khảo giày của MR SHOP nhé.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="review swiper-slide">
+                            <div class="layer"></div>
+                            <div class="avatar-reviewer text-center position-relative d-inline-block mb-4">
+                                <img src="/Images/reviewer_2.jpg" alt="Trang Đào">
+                            </div>
+                            <div class="star mb-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                     
+                            </div>
+                            <div class="name-reviewer mb-4">
+                                <a href="#" class="font-weight-bold">Trang Đào - Best Seller</a>
+                            </div>
+                            <div class="content-review">
+                                <span>
+                                    Nike Epic React Flyknit là một trong số ít những đôi giày mang đến cho mình cảm giác hứng khởi mỗi khi xỏ chân vào. Các bạn chưa biết chọn giày ở đâu có thể tham khảo giày của MR SHOP nhé.                                </span>
+                            </div>
+                        </div>
+                        <div class="review swiper-slide">
+                            <div class="layer"></div>
+                            <div class="avatar-reviewer text-center position-relative d-inline-block mb-4">
+                                <img src="/Images/reviewer_3.jpg" alt="Nhung Nguyễn">
+                            </div>
+                            <div class="star mb-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="name-reviewer mb-4">
+                                <a href="#" class="font-weight-bold">Nhung Nguyễn - Manager</a>
+                            </div>
+                            <div class="content-review">
+                                <span>
+                                    Nike Air Force 1 Low All White là một trong số ít những đôi giày mang đến cho mình cảm giác hứng khởi mỗi khi xỏ chân vào. Các bạn chưa biết chọn giày ở đâu có thể tham khảo giày của MR SHOP nhé.                                </span>
+                            </div>
+                        </div>
+                        <div class="review swiper-slide">
+                            <div class="layer"></div>
+                            <div class="avatar-reviewer text-center position-relative d-inline-block mb-4">
+                                <img src="/Images/reviewer_4.jpg" alt="Hà Trang">
+                            </div>
+                            <div class="star mb-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="name-reviewer mb-4">
+                                <a href="#" class="font-weight-bold">Hà Trang - Idol TikTok</a>
+                            </div>
+                            <div class="content-review">
+                                <span>
+                                    Adidas Stan Smith là một trong những đôi giày thời đại mang đến cho mình cảm giác hứng khởi mỗi khi xỏ chân vào. Các bạn chưa biết chọn giày ở đâu có thể tham khảo giày của Mew Shoes nhé.                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper_reviews = new Swiper(".mySwiper-reviews", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        
+			breakpoints: {
+				320: {
+					slidesPerView: 1
+				},
+				768: {
+					slidesPerView: 1
+				},
+				992: {
+					slidesPerView: 2
+				},
+				1200: {
+					slidesPerView: 3
+				},
+				1500: {
+					slidesPerView: 3
+				}
+			}
+
+
+        });
+      </script>
+    
+
+    <!-- End customer reviews -->
+
+    <!-- Start news -->
+    <div class="container">
+        <div class="Brand_wrap pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-5">
+                Tin tức
+                </a>
+            </h2>
+            <article class="position-relative">
+                <div class="container swiper mySwiper-news ">
+                    <div class="swiper-wrapper content_news d-flex">
+                        <div class="news swiper-slide">
+                            <div class="news-img">
+                                <a href="" class="position-relative d-block"><img class="w-100" src="/Images/news_1.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <h3><a href="">Giới thiệu thương hiệu Lacoste</a></h3>
+                                <span class="date small">08/01/17</span>
+                                <br>
+                                <span>
+                                    Lacoste  là một công ty thời trang của Pháp, được thành lập vào năm 1933 bởi tay...
+                              </span>
+                            </div>
+                            
+                        </div>
+                        <div class="news swiper-slide">
+                            <div class="news-img">
+                                <a href=""><img class="w-100" src="/Images/news_2.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <h3><a href="">Giới thiệu thương hiệu Lacoste</a></h3>
+                                <span class="date small">08/01/17</span>
+                                <br>
+                                <span>
+                                    Lacoste  là một công ty thời trang của Pháp, được thành lập vào năm 1933 bởi tay...
+                              </span>
+                            </div>
+                            
+                        </div>
+                        <div class="news swiper-slide">
+                            <div class="news-img">
+                                <a href=""><img class="w-100" src="/Images/news_3.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <h3><a href="">Giới thiệu thương hiệu Lacoste</a></h3>
+                                <span class="date small">08/01/17</span>
+                                <br>
+                                <span>
+                                    Lacoste  là một công ty thời trang của Pháp, được thành lập vào năm 1933 bởi tay...
+                              </span>
+                            </div>
+                            
+                        </div>
+                        <div class="news swiper-slide">
+                            <div class="news-img">
+                                <a href=""><img class="w-100" src="/Images/news_4.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <h3><a href="">Giới thiệu thương hiệu Lacoste</a></h3>
+                                <span class="date small">08/01/17</span>
+                                <br>
+                                <span>
+                                    Lacoste  là một công ty thời trang của Pháp, được thành lập vào năm 1933 bởi tay...
+                              </span>
+                            </div>
+                            
+                        </div>
+                        <div class="news swiper-slide">
+                            <div class="news-img">
+                                <a href=""><img class="w-100" src="/Images/news_5.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <h3><a href="">Giới thiệu thương hiệu Lacoste</a></h3>
+                                <span class="date small">08/01/17</span>
+                                <br>
+                                <span>
+                                    Lacoste  là một công ty thời trang của Pháp, được thành lập vào năm 1933 bởi tay...
+                              </span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+      <!-- Initialize Swiper -->
+    <script>
+        var swiper_news = new Swiper(".mySwiper-news", {
+          slidesPerView: 1,
+          spaceBetween: 15,
+          
+	
+			breakpoints: {
+				576: {
+					slidesPerView: 1
+				},
+				768: {
+					slidesPerView: 2
+				},
+				992: {
+					slidesPerView: 3
+				},
+				1200: {
+					slidesPerView: 4
+				}
+			}
+	
+          
+        });
+      </script>
+    <!-- End news -->
+
+
+    <!-- Start Brand -->
+    <div class="container">
+        <div class="Brand_wrap pt-xl-5 pb-2 pt-5">
+            <h2 class="title text-uppercase font-weight-bold text-center">
+                <a href="#" alt="Sản phẩm nổi bật" class="text-decoration-none border rounded-5">
+                    Thương hiệu
+                </a>
+            </h2>
+            <section class="position-relative">
+                <div class="container swiper mySwiper_Brand">
+                    <div class="content_product d-flex swiper-wrapper">
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand1.jpg" alt=""></a>                       
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand2.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand3.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand4.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand5.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand6.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand7.jpg"></a>  
+                        </div>
+                        <div class="product swiper-slide">
+                            <a href="#"><img src="/Images/brand8.jpg"></a>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper_Brand = new Swiper(".mySwiper_Brand", {
+            spaceBetween: 15,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                480: {
+					slidesPerView: 2
+				},
+				576: {
+					slidesPerView: 3
+				},
+				768: {
+					slidesPerView: 4
+				},
+				992: {
+					slidesPerView: 6
+				},
+				1200: {
+					slidesPerView: 8
+				},
+
+            }
+        
+	
+
+
+        });
+    </script>
+ <!-- End Brand -->
+ 
+  
+
+
+
+
+            <!-- Start shop system -->
+            <div class="under-footer">
+                <div class="container  text-center pt-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>CỬA HÀNG MR SHOP</h3>
+                            <div class="container btn-hethongcuahang">
+                                <a href="/lien-he" class="rb-repline-selected" title="Hệ thống cửa hàng">Hệ thống cửa
+                                    hàng</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End shop system -->
+
+
+
+
+            <!-- start footer  -->
+            <footer>
+                <div class="notes container row d-flex">
+
+                    <div class="col-xl-4 col-sm-12 lienhe">
+                        <h3>Liên hệ</h3>
+                        <h4>GIÀY LACOSTE | GIÀY PUMA | GIÀY COLE HAAN | GIÀY ADIDAS CHÍNH HÃNG</h4>
+                        <p>Địa chỉ: Nhà K1, khu đô thị Việt Hưng, Long Biên, Hà Nội</p>
+                        <p>Địa chỉ: Nhà K1, khu đô thị Việt Hưng, Long Biên, Hà Nội</p>
+                        <p>Email:
+                            <a href="mailto: nguyenthelap0611@gmail.com" title=" nguyenthelap0611@gmail.com">
+                                nguyenthelap0611@gmail.com</a>
+                        </p>
+                        <p>Số điện thoại:
+                            <a href="tel:0825269999" title="08 2526 9999">08 2526 9999</a>
+                        </p>
+                        <div class="footer-column-1">
+                            <div class="payment-accept">
+                                <div>
+                                    <img class="first lazy" src="/Images/paypal.jpg" alt="payment-1">
+
+                                    <img class="lazy" src="/Images/visa.jpg" alt="payment-2">
+
+
+                                    <img class="lazy" src="/Images/mastercard.jpg" alt="payment-3">
+
+
+                                    <img class="lazy" src="/Images/american.jpg" alt="payment-4">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-2  col-sm-12 dieukhoan">
+                        <h4>
+                            Điều khoản
+
+                        </h4>
+                        <div>
+                            <ul class="list-menu">
+
+                                <li class="li_menu"><a href="https://www.facebook.com/thelap.nguyen.9999"
+                                        class="">Facebook
+                                        cá
+                                        nhân</a></li>
+
+                                <li class="li_menu"><a href="https://www.facebook.com/ShoesMrShop" class="">Fanpage</a>
+                                </li>
+
+                                <li class="li_menu"><a href="https://shopee.vn/mrshop_vn" class="">Shopee</a></li>
+
+                                <li class="li_menu"><a href="https://www.lazada.vn/shop/mr-shop">Lazada</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-sm-12 huongdan">
+                        <h4>
+                            <a>
+                                Hướng dẫn
+                            </a>
+                        </h4>
+
+                        <ul class="list-menu">
+
+                            <li class="li_menu"><a href="/huong-dan">Hướng dẫn mua hàng</a></li>
+
+                            <li class="li_menu"><a href="/search">Tìm kiếm</a></li>
+
+                            <li class="li_menu"><a href="/chinh-sach-thanh-toan">Thanh toán</a></li>
+
+                            <li class="li_menu"><a href="/chinh-sach-doi-tra">Đổi trả</a></li>
+
+                            <li class="li_menu"><a href="/chinh-sach-bao-hanh">Bảo hành</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-xl-2 col-sm-12 chinhsach">
+
+
+                        <h4>
+                            <a>
+                                Chính sách
+                            </a>
+                        </h4>
+
+                        <ul class="list-menu">
+
+                            <li class="li_menu"><a href="/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+
+                            <li class="li_menu"><a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+
+                            <li class="li_menu"><a href="/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="col-xl-2 col-sm-12 sanpham">
+
+                        <h4>
+                            <a>
+                                Sản phẩm
+                            </a>
+                        </h4>
+
+                        <ul class="list-menu">
+
+                            <li class="li_menu"><a href="/">Trang chủ</a></li>
+
+                            <li class="li_menu"><a href="/gioi-thieu">GIỚI THIỆU</a></li>
+
+                            <li class="li_menu"><a href="/collections/all">Sản phẩm</a></li>
+
+                            <li class="li_menu"><a href="/giay-lacoste">GIÀY LACOSTE</a></li>
+
+                            <li class="li_menu"><a href="/giay-puma">GIÀY PUMA</a></li>
+
+                            <li class="li_menu"><a href="/giay-cole-haan">GIÀY COLE HAAN</a></li>
+
+                            <li class="li_menu"><a href="/giay-adidas">GIÀY ADIDAS</a></li>
+
+                            <li class="li_menu"><a href="/quan-ao">QUẦN ÁO</a></li>
+
+                            <li class="li_menu"><a href="/phu-kien">PHỤ KIỆN</a></li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+                <div class="container d-flex mt-3">
+
+
+                    <div class="coppyright pt-3">
+                        Toàn bộ bản quyền thuộc MR SHOP. Cung cấp bởi <a
+                            href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&amp;utm_source=site_khach_hang&amp;utm_medium=referral&amp;utm_content=fm:text_link-km:-sz:&amp;utm_term=&amp;campaign=site_khach_hang"
+                            title="Sapo" target="_blank" rel="nofollow noopener">Sapo</a>.</div>
+
+
+                </div>
+            </footer>
+
+            <!-- end footer  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+            <script src="main.js"></script>
+</body>
+
+</html>
