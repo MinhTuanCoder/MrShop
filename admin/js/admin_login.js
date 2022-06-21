@@ -44,5 +44,5 @@ function Func1(){
     checkEmailValidate(txtEmail.value);
     checkPasswordValidate(txtPass.value);
     if (check1 == true & check2 == true)
-        loginA.href="./admin_main.html";
+        loginA.href="/admin/admin_main.html";
 }
