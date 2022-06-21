@@ -16,7 +16,8 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/contact.css">
-    <title>Liên hệ</title>
+    <link rel="icon" href="./Images/icon_logo.jpg" type="image/x-icon">
+    <title>Chính sách thanh toán</title>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
                         </button>
                     </div>
 
-                    <a href="#" class="m-auto w-auto">
+                    <a href="./index.html" class="m-auto w-auto">
                         <img class="img-fluid" src="./Images/logo.jpg" alt="Logo">
                     </a>
 
@@ -54,7 +55,7 @@
                         </div>
                     </div>
 
-                    <a href="" class="d-none d-lg-flex position-relative h_zoom p-2">
+                    <a href="./cart.html" class="d-none d-lg-flex position-relative h_zoom p-2">
                         <img src="./Images/icon_cart.jpg" alt="">
                     </a>
 
@@ -80,11 +81,11 @@
 
                     <div class="navigation-block mt-5">
                         <ul id="menu" class="">
-                            <li class="active">
+                            <li class="">
                                 <a href="/" title="Trang chủ" class="">Trang chủ</a>
                             </li>
                             <li class="">
-                                <a href="/gioi-thieu" title="GIỚI THIỆU" class="">GIỚI THIỆU</a>
+                                <a href="./about.html" title="GIỚI THIỆU" class="">GIỚI THIỆU</a>
                             </li>
                             <li class="">
                                 <a href="/" title="Sản phẩm" class="">Sản phẩm</a>
@@ -140,14 +141,14 @@
                                 <a href="/collections/all" title="Cửa hàng Online" class="">Cửa hàng Online</a>
                             </li>
                             <li class=" level0 position-relative cls">
-                                <a href="/huong-dan" title="Hướng dẫn mua hàng" class="">Hướng dẫn mua hàng</a>
+                                <a href="./shopping_guide..html" title="Hướng dẫn mua hàng" class="">Hướng dẫn mua hàng</a>
                             </li>
-                            <li class=" level0 position-relative cls">
-                                <a href="/chinh-sach-thanh-toan" title="Chính sách thanh toán" class="">Chính sách thanh
+                            <li class=" level0 position-relative cls active">
+                                <a href="./payment_policy.html" title="Chính sách thanh toán" class="">Chính sách thanh
                                     toán</a>
                             </li>
                             <li class=" level0 position-relative cls">
-                                <a href="/lien-he" title="Địa chỉ liên hệ" class="">Địa chỉ liên hệ</a>
+                                <a href="./contact.html title="Địa chỉ liên hệ" class="">Địa chỉ liên hệ</a>
                             </li>
                         </ul>
                     </div>
@@ -397,6 +398,32 @@
     </footer>
 
     <!-- end footer  -->
+    <div id="backtop">
+       
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if( $(this).scrollTop() ) {
+                $('#backtop').fadeIn();
+            }
+            else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function(){
+            $('html,body').animate({
+                scrollTop:0
+            },0);
+        });
+    });
+
+</script>
+    <!-- End scroll top button -->
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
