@@ -23,11 +23,19 @@
 <body>
     <header>
         <div id="Body_overlay" class="position-fixed d-none"></div>
+        <div class="head-search text-center" id="head-search"> 
+            <div class="search-block w-100" id="search-block">
+                <form action="/search" method="get" id="js-search-form" class="left-search position-relative mt-1 mb-1">
+                    <input type="text" placeholder="Từ khoá..." value="" maxlength="70" name="query" autocomplete="off" class="form-control pl-2 pr-5 w-100 h-100" required="">
+                    <button class="position-absolute" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
         <div class="header fixed-top">
 
             <div class="container">
 
-                <div class="menubar">
+                <div class="menubar" id="menubar">
 
                     <div class="btn-menu">
                         <button id="js-menu-toggle">
@@ -42,9 +50,9 @@
                         <img class="img-fluid" src="./Images/logo.jpg" alt="Logo">
                     </a>
 
-                    <a href="" class="d-flex h_zoom p-2">
+                    <div class="d-flex h_zoom p-2" id="btn-search">
                         <img src="./Images/icon_search.jpg" alt="">
-                    </a>
+                    </div>
 
                     <div class="btn-login h_zoom p-2" id="js-login-toggle">
 

@@ -23,14 +23,44 @@ body{
     z-index: 9;
 
 }
+/* Start head search */
+.head-search{
+   position: fixed;
+   left: 0;
+   right: 0;
+   z-index: 1500;
+   padding: 0px 10px;
+    top: -48px;
+    background: #fff;
+    transition: all 0.4s ease;
+}
+.fix{
+    top: 0 !important;
+}
+.head-search form{
+    padding: 0 10%;
+}
+.head-search form button{
+    position: absolute;
+    top:0;
+    right:10%;
+    background-color: #014c8f;
+    border: #ddd solid 1px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+    color: #ddd;
+}
+/* End head search */
+
 
 /* Start Header */
 .header{
     background-color:#fff;
     width: 100%;
     text-align: center;
-    border-bottom: gray 1,5px solid; 
-    margin-bottom: 176px;  
+    border-bottom: gray 1,5px solid;   
+    
     
 }
 
@@ -43,7 +73,9 @@ body{
     box-sizing: border-box;
     text-align: right;
 
-    
+}
+.fix-top{
+    padding-top: 48px !important;
 }
 .btn-menu b{
     font-size: 24px;
@@ -141,6 +173,8 @@ body{
     max-width: 100%;
     transform: translateX(-100%);
     transition: transform linear 0.3s;
+   
+   
 }
 
 .nav-left .col-left ul{
@@ -187,7 +221,6 @@ body{
     transform:scale(1.2) ;
     
 }
-
 
 
 
@@ -350,6 +383,7 @@ ul .active a{
     cursor: pointer;
     transition: all 1s linear;
 }
+
 /* Start fix phone */
 .fix-phone{
     display: none;
